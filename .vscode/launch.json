@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "args": ["/home/edge/fzchen/swin_src/qasm-benchmark/cr_iccad_circuits/large/cm82a_208.qasm",
+                    "/home/edge/fzchen/swin_src/coupling/guadalupe",
+                    "100"]
+        }
+    ]
+}
